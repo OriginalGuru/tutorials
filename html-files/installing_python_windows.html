@@ -7574,18 +7574,18 @@ a.anchor-link {
 <li><p><strong>Install Miniforge</strong></p>
 <p><strong>Miniforge</strong> is a community-driven, cross-platform package manager built on top of conda.</p>
 <ol>
+<li><p>Navigate to the directory to <code>Windows(C:)&gt;Users&gt;[user-name]</code></p>
+</li>
 <li><p>Download the Miniforge installer for Windows:</p>
 <p><code>curl -L -O https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe</code></p>
 </li>
-<li><p>Run the installer:</p>
-<p><code>./Miniforge3-Windows-x86_64.exe /S /D=C:\Miniforge3</code></p>
-<p>Here, /S is for silent mode and /D specifies the installation directory. Adjust the installation directory as needed.</p>
+<li><p>Double-click on the Miniforge installer in your home folder (<code>Windows(C:)&gt;Users&gt;[user-name]</code>).</p>
 </li>
-<li><p>Follow the on-screen instructions if prompted. Otherwise, the silent installation will proceed with default settings.</p>
+<li><p>Follow the on-screen instructions with the following option. Check the option `Add Miniforge3 to my PATH environment variable. The last option, which clears your cache is also helpful.</p>
 </li>
-<li><p>After installation, close and reopen Git BASH to ensure the changes take effect.</p>
+<li><p>After installation, close and reopen Git BASH.</p>
 </li>
-<li><p>Verify the installation by checking the conda version:</p>
+<li><p>Verify the installation by checking the conda version by typing the following command in Git BASH:</p>
 <p><code>conda --version</code></p>
 </li>
 </ol>
